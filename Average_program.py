@@ -2,9 +2,9 @@ num_list = []
 i = 0
 playing = True
 
-while (playing == Ture):
+while(playing == True):
 
-	num = int(input("enter an int:"))
+	num = int(input("Enter an int:"))
 
 	#test if number is -1, to quit the program
 	if (num == -1):
@@ -14,10 +14,11 @@ while (playing == Ture):
 		num_list.append(num)
 		i += 1
 
+
 #get the sum of all entered numbers
 num_sum = 0
 for num in num_list:
-	num_sum += num_sum
+	num_sum += num
 
 #calculate the average
 num_avg = num_sum / i
